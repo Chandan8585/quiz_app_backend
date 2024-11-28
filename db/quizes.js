@@ -133,106 +133,106 @@ const quizzes = {
             quiz:[
                 {
                   "id": "111",
-                  "question": "Which options does AWS make available for customers who want to learn about security in the cloud in an instructor-led setting? (Choose two.)",
-                  "options": [
-                    { "id": "A", "option": "AWS Trusted Advisor", "isRight": false },
-                    { "id": "B", "option": "AWS Online Tech Talks", "isRight": true },
-                    { "id": "C", "option": "AWS Blog", "isRight": false },
-                    { "id": "D", "option": "AWS Forums", "isRight": false },
-                    { "id": "E", "option": "AWS Classroom Training", "isRight": true }
+                  question: "Which options does AWS make available for customers who want to learn about security in the cloud in an instructor-led setting? (Choose two.)",
+                 options: [
+                    { id: uuid(), option: "AWS Trusted Advisor", "isRight": false },
+                    { id: uuid(), option: "AWS Online Tech Talks", "isRight": true },
+                    {id: uuid(), option: "AWS Blog", "isRight": false },
+                    { id: uuid(), option: "AWS Forums", "isRight": false },
+                    { id: uuid(), option: "AWS Classroom Training", "isRight": true }
                   ]
                 },
                 {
                   "id": "112",
-                  "question": "Which of the following features can be configured through the Amazon Virtual Private Cloud (Amazon VPC) Dashboard? (Choose two.)",
-                  "options": [
-                    { "id": "A", "option": "Amazon CloudFront distributions", "isRight": false },
-                    { "id": "B", "option": "Amazon Route 53", "isRight": false },
-                    { "id": "C", "option": "Security Groups", "isRight": true },
-                    { "id": "D", "option": "Subnets", "isRight": true },
-                    { "id": "E", "option": "Elastic Load Balancing", "isRight": false }
+                  question: "Which of the following features can be configured through the Amazon Virtual Private Cloud (Amazon VPC) Dashboard? (Choose two.)",
+                 options: [
+                    { id: uuid(), option: "Amazon CloudFront distributions", "isRight": false },
+                    { id: uuid(), option: "Amazon Route 53", "isRight": false },
+                    {id: uuid(), option: "Security Groups", "isRight": true },
+                    { id: uuid(), option: "Subnets", "isRight": true },
+                    { id: uuid(), option: "Elastic Load Balancing", "isRight": false }
                   ]
                 },
                 {
                   "id": "113",
-                  "question": "If each department within a company has its own AWS account, what is one way to enable consolidated billing?",
-                  "options": [
-                    { "id": "A", "option": "Use AWS Budgets on each account to pay only to budget.", "isRight": false },
-                    { "id": "B", "option": "Contact AWS Support for a monthly bill.", "isRight": false },
-                    { "id": "C", "option": "Create an AWS Organization from the payer account and invite the other accounts to join.", "isRight": true },
-                    { "id": "D", "option": "Put all invoices into one Amazon Simple Storage Service (Amazon S3) bucket, load data into Amazon Redshift, and then run a billing report.", "isRight": false }
+                  question: "If each department within a company has its own AWS account, what is one way to enable consolidated billing?",
+                 options: [
+                    { id: uuid(), option: "Use AWS Budgets on each account to pay only to budget.", "isRight": false },
+                    { id: uuid(), option: "Contact AWS Support for a monthly bill.", "isRight": false },
+                    {id: uuid(), option: "Create an AWS Organization from the payer account and invite the other accounts to join.", "isRight": true },
+                    { id: uuid(), option: "Put all invoices into one Amazon Simple Storage Service (Amazon S3) bucket, load data into Amazon Redshift, and then run a billing report.", "isRight": false }
                   ]
                 },
                 {
                   "id": "114",
-                  "question": "How do customers benefit from Amazon’s massive economies of scale?",
-                  "options": [
-                    { "id": "A", "option": "Periodic price reductions as the result of Amazon’s operational efficiencies", "isRight": true },
-                    { "id": "B", "option": "New Amazon EC2 instance types providing the latest hardware", "isRight": false },
-                    { "id": "C", "option": "The ability to scale up and down when needed", "isRight": false },
-                    { "id": "D", "option": "Increased reliability in the underlying hardware of Amazon EC2 instances", "isRight": false }
+                  question: "How do customers benefit from Amazon’s massive economies of scale?",
+                 options: [
+                    { id: uuid(), option: "Periodic price reductions as the result of Amazon’s operational efficiencies", "isRight": true },
+                    { id: uuid(), option: "New Amazon EC2 instance types providing the latest hardware", "isRight": false },
+                    {id: uuid(), option: "The ability to scale up and down when needed", "isRight": false },
+                    { id: uuid(), option: "Increased reliability in the underlying hardware of Amazon EC2 instances", "isRight": false }
                   ]
                 },
                 {
                   "id": "115",
-                  "question": "Which AWS services can be used to gather information about AWS account activity? (Choose two.)",
-                  "options": [
-                    { "id": "A", "option": "Amazon CloudFront", "isRight": false },
-                    { "id": "B", "option": "AWS Cloud9", "isRight": false },
-                    { "id": "C", "option": "AWS CloudTrail", "isRight": true },
-                    { "id": "D", "option": "AWS CloudHSM", "isRight": false },
-                    { "id": "E", "option": "Amazon CloudWatch", "isRight": true }
+                  question: "Which AWS services can be used to gather information about AWS account activity? (Choose two.)",
+                 options: [
+                    { id: uuid(), option: "Amazon CloudFront", "isRight": false },
+                    { id: uuid(), option: "AWS Cloud9", "isRight": false },
+                    {id: uuid(), option: "AWS CloudTrail", "isRight": true },
+                    { id: uuid(), option: "AWS CloudHSM", "isRight": false },
+                    { id: uuid(), option: "Amazon CloudWatch", "isRight": true }
                   ]
                 },
                 {
                   "id": "116",
-                  "question": "Which of the following common IT tasks can AWS cover to free up company IT resources? (Choose two.)",
-                  "options": [
-                    { "id": "A", "option": "Patching database software", "isRight": true },
-                    { "id": "B", "option": "Testing application releases", "isRight": false },
-                    { "id": "C", "option": "Backing up databases", "isRight": true },
-                    { "id": "D", "option": "Creating database schema", "isRight": false },
-                    { "id": "E", "option": "Running penetration tests", "isRight": false }
+                  question: "Which of the following common IT tasks can AWS cover to free up company IT resources? (Choose two.)",
+                 options: [
+                    { id: uuid(), option: "Patching database software", "isRight": true },
+                    { id: uuid(), option: "Testing application releases", "isRight": false },
+                    {id: uuid(), option: "Backing up databases", "isRight": true },
+                    { id: uuid(), option: "Creating database schema", "isRight": false },
+                    { id: uuid(), option: "Running penetration tests", "isRight": false }
                   ]
                 },
                 {
                   "id": "117",
-                  "question": "In which scenario should Amazon EC2 Spot Instances be used?",
-                  "options": [
-                    { "id": "A", "option": "A company wants to move its main website to AWS from an on-premises web server.", "isRight": false },
-                    { "id": "B", "option": "A company has a number of application services whose Service Level Agreement (SLA) requires 99.999% uptime.", "isRight": false },
-                    { "id": "C", "option": "A company’s heavily used legacy database is currently running on-premises.", "isRight": false },
-                    { "id": "D", "option": "A company has a number of infrequent, interruptible jobs that are currently using On-Demand Instances.", "isRight": true }
+                  question: "In which scenario should Amazon EC2 Spot Instances be used?",
+                 options: [
+                    { id: uuid(), option: "A company wants to move its main website to AWS from an on-premises web server.", "isRight": false },
+                    { id: uuid(), option: "A company has a number of application services whose Service Level Agreement (SLA) requires 99.999% uptime.", "isRight": false },
+                    {id: uuid(), option: "A company’s heavily used legacy database is currently running on-premises.", "isRight": false },
+                    { id: uuid(), option: "A company has a number of infrequent, interruptible jobs that are currently using On-Demand Instances.", "isRight": true }
                   ]
                 },
                 {
                   "id": "118",
-                  "question": "Which AWS feature should a customer leverage to achieve high availability of an application?",
-                  "options": [
-                    { "id": "A", "option": "AWS Direct Connect", "isRight": false },
-                    { "id": "B", "option": "Availability Zones", "isRight": true },
-                    { "id": "C", "option": "Data centers", "isRight": false },
-                    { "id": "D", "option": "Amazon Virtual Private Cloud (Amazon VPC)", "isRight": false }
+                  question: "Which AWS feature should a customer leverage to achieve high availability of an application?",
+                 options: [
+                    { id: uuid(), option: "AWS Direct Connect", "isRight": false },
+                    { id: uuid(), option: "Availability Zones", "isRight": true },
+                    {id: uuid(), option: "Data centers", "isRight": false },
+                    { id: uuid(), option: "Amazon Virtual Private Cloud (Amazon VPC)", "isRight": false }
                   ]
                 },
                 {
                   "id": "119",
-                  "question": "Which is the minimum AWS Support plan that includes Infrastructure Event Management without additional costs?",
-                  "options": [
-                    { "id": "A", "option": "Enterprise", "isRight": true },
-                    { "id": "B", "option": "Business", "isRight": false },
-                    { "id": "C", "option": "Developer", "isRight": false },
-                    { "id": "D", "option": "Basic", "isRight": false }
+                  question: "Which is the minimum AWS Support plan that includes Infrastructure Event Management without additional costs?",
+                 options: [
+                    { id: uuid(), option: "Enterprise", "isRight": true },
+                    { id: uuid(), option: "Business", "isRight": false },
+                    {id: uuid(), option: "Developer", "isRight": false },
+                    { id: uuid(), option: "Basic", "isRight": false }
                   ]
                 },
                 {
                   "id": "120",
-                  "question": "Which AWS service can serve a static website?",
-                  "options": [
-                    { "id": "A", "option": "Amazon S3", "isRight": true },
-                    { "id": "B", "option": "Amazon Route 53", "isRight": false },
-                    { "id": "C", "option": "Amazon QuickSight", "isRight": false },
-                    { "id": "D", "option": "AWS X-Ray", "isRight": false }
+                  question: "Which AWS service can serve a static website?",
+                 options: [
+                    { id: uuid(), option: "Amazon S3", "isRight": true },
+                    { id: uuid(), option: "Amazon Route 53", "isRight": false },
+                    {id: uuid(), option: "Amazon QuickSight", "isRight": false },
+                    { id: uuid(), option: "AWS X-Ray", "isRight": false }
                   ]
                 }
               ]
@@ -246,103 +246,103 @@ const quizzes = {
             quiz: [
                 {
                   "id": "121",
-                  "question": "How does AWS shorten the time to provision IT resources?",
-                  "options": [
-                    { "id": "A", "option": "It supplies an online IT ticketing platform for resource requests.", "isRight": false },
-                    { "id": "B", "option": "It supports automatic code validation services.", "isRight": false },
-                    { "id": "C", "option": "It provides the ability to programmatically provision existing resources.", "isRight": true },
-                    { "id": "D", "option": "It automates the resource request process from a company’s IT vendor list.", "isRight": false }
+                  question: "How does AWS shorten the time to provision IT resources?",
+                 options: [
+                    { id: uuid(), option: "It supplies an online IT ticketing platform for resource requests.", "isRight": false },
+                    { id: uuid(), option: "It supports automatic code validation services.", "isRight": false },
+                    {id: uuid(), option: "It provides the ability to programmatically provision existing resources.", "isRight": true },
+                    { id: uuid(), option: "It automates the resource request process from a company’s IT vendor list.", "isRight": false }
                   ]
                 },
                 {
                   "id": "122",
-                  "question": "What can AWS edge locations be used for? (Choose two.)",
-                  "options": [
-                    { "id": "A", "option": "Hosting applications", "isRight": false },
-                    { "id": "B", "option": "Delivering content closer to users", "isRight": true },
-                    { "id": "C", "option": "Running NoSQL database caching services", "isRight": false },
-                    { "id": "D", "option": "Reducing traffic on the server by caching responses", "isRight": true },
-                    { "id": "E", "option": "Sending notification messages to end users", "isRight": false }
+                  question: "What can AWS edge locations be used for? (Choose two.)",
+                 options: [
+                    { id: uuid(), option: "Hosting applications", "isRight": false },
+                    { id: uuid(), option: "Delivering content closer to users", "isRight": true },
+                    {id: uuid(), option: "Running NoSQL database caching services", "isRight": false },
+                    { id: uuid(), option: "Reducing traffic on the server by caching responses", "isRight": true },
+                    { id: uuid(), option: "Sending notification messages to end users", "isRight": false }
                   ]
                 },
                 {
                   "id": "123",
-                  "question": "Which of the following can limit Amazon Simple Storage Service (Amazon S3) bucket access to specific users?",
-                  "options": [
-                    { "id": "A", "option": "A public and private key-pair", "isRight": false },
-                    { "id": "B", "option": "Amazon Inspector", "isRight": false },
-                    { "id": "C", "option": "AWS Identity and Access Management (IAM) policies", "isRight": true },
-                    { "id": "D", "option": "Security Groups", "isRight": false }
+                  question: "Which of the following can limit Amazon Simple Storage Service (Amazon S3) bucket access to specific users?",
+                 options: [
+                    { id: uuid(), option: "A public and private key-pair", "isRight": false },
+                    { id: uuid(), option: "Amazon Inspector", "isRight": false },
+                    {id: uuid(), option: "AWS Identity and Access Management (IAM) policies", "isRight": true },
+                    { id: uuid(), option: "Security Groups", "isRight": false }
                   ]
                 },
                 {
                   "id": "124",
-                  "question": "A solution that is able to support growth in users, traffic, or data size with no drop in performance aligns with which cloud architecture principle?",
-                  "options": [
-                    { "id": "A", "option": "Think parallel", "isRight": false },
-                    { "id": "B", "option": "Implement elasticity", "isRight": true },
-                    { "id": "C", "option": "Decouple your components", "isRight": false },
-                    { "id": "D", "option": "Design for failure", "isRight": false }
+                  question: "A solution that is able to support growth in users, traffic, or data size with no drop in performance aligns with which cloud architecture principle?",
+                 options: [
+                    { id: uuid(), option: "Think parallel", "isRight": false },
+                    { id: uuid(), option: "Implement elasticity", "isRight": true },
+                    {id: uuid(), option: "Decouple your components", "isRight": false },
+                    { id: uuid(), option: "Design for failure", "isRight": false }
                   ]
                 },
                 {
                   "id": "125",
-                  "question": "A company will be moving from an on-premises data center to the AWS Cloud. What would be one financial difference after the move?",
-                  "options": [
-                    { "id": "A", "option": "Moving from variable operational expense (opex) to upfront capital expense (capex).", "isRight": false },
-                    { "id": "B", "option": "Moving from upfront capital expense (capex) to variable capital expense (capex).", "isRight": false },
-                    { "id": "C", "option": "Moving from upfront capital expense (capex) to variable operational expense (opex).", "isRight": true },
-                    { "id": "D", "option": "Elimination of upfront capital expense (capex) and elimination of variable operational expense (opex).", "isRight": false }
+                  question: "A company will be moving from an on-premises data center to the AWS Cloud. What would be one financial difference after the move?",
+                 options: [
+                    { id: uuid(), option: "Moving from variable operational expense (opex) to upfront capital expense (capex).", "isRight": false },
+                    { id: uuid(), option: "Moving from upfront capital expense (capex) to variable capital expense (capex).", "isRight": false },
+                    {id: uuid(), option: "Moving from upfront capital expense (capex) to variable operational expense (opex).", "isRight": true },
+                    { id: uuid(), option: "Elimination of upfront capital expense (capex) and elimination of variable operational expense (opex).", "isRight": false }
                   ]
                 },
                 {
                   "id": "126",
-                  "question": "How should a customer forecast the future costs for running a new web application?",
-                  "options": [
-                    { "id": "A", "option": "Amazon Aurora Backtrack", "isRight": false },
-                    { "id": "B", "option": "Amazon CloudWatch Billing Alarms", "isRight": false },
-                    { "id": "C", "option": "AWS Simple Monthly Calculator", "isRight": true },
-                    { "id": "D", "option": "AWS Cost and Usage report", "isRight": false }
+                  question: "How should a customer forecast the future costs for running a new web application?",
+                 options: [
+                    { id: uuid(), option: "Amazon Aurora Backtrack", "isRight": false },
+                    { id: uuid(), option: "Amazon CloudWatch Billing Alarms", "isRight": false },
+                    {id: uuid(), option: "AWS Simple Monthly Calculator", "isRight": true },
+                    { id: uuid(), option: "AWS Cost and Usage report", "isRight": false }
                   ]
                 },
                 {
                   "id": "127",
-                  "question": "Which is the MINIMUM AWS Support plan that provides technical support through phone calls?",
-                  "options": [
-                    { "id": "A", "option": "Enterprise", "isRight": false },
-                    { "id": "B", "option": "Business", "isRight": true },
-                    { "id": "C", "option": "Developer", "isRight": false },
-                    { "id": "D", "option": "Basic", "isRight": false }
+                  question: "Which is the MINIMUM AWS Support plan that provides technical support through phone calls?",
+                 options: [
+                    { id: uuid(), option: "Enterprise", "isRight": false },
+                    { id: uuid(), option: "Business", "isRight": true },
+                    {id: uuid(), option: "Developer", "isRight": false },
+                    { id: uuid(), option: "Basic", "isRight": false }
                   ]
                 },
                 {
                   "id": "128",
-                  "question": "Which of the following tasks is the responsibility of AWS?",
-                  "options": [
-                    { "id": "A", "option": "Encrypting client-side data", "isRight": false },
-                    { "id": "B", "option": "Configuring AWS Identity and Access Management (IAM) roles", "isRight": false },
-                    { "id": "C", "option": "Securing the Amazon EC2 hypervisor", "isRight": true },
-                    { "id": "D", "option": "Setting user password policies", "isRight": false }
+                  question: "Which of the following tasks is the responsibility of AWS?",
+                 options: [
+                    { id: uuid(), option: "Encrypting client-side data", "isRight": false },
+                    { id: uuid(), option: "Configuring AWS Identity and Access Management (IAM) roles", "isRight": false },
+                    {id: uuid(), option: "Securing the Amazon EC2 hypervisor", "isRight": true },
+                    { id: uuid(), option: "Setting user password policies", "isRight": false }
                   ]
                 },
                 {
                   "id": "129",
-                  "question": "One benefit of On-Demand Amazon Elastic Compute Cloud (Amazon EC2) pricing is:",
-                  "options": [
-                    { "id": "A", "option": "the ability to bid for a lower hourly cost.", "isRight": false },
-                    { "id": "B", "option": "paying a daily rate regardless of time used.", "isRight": false },
-                    { "id": "C", "option": "paying only for time used.", "isRight": true },
-                    { "id": "D", "option": "pre-paying for instances and paying a lower hourly rate.", "isRight": false }
+                  question: "One benefit of On-Demand Amazon Elastic Compute Cloud (Amazon EC2) pricing is:",
+                 options: [
+                    { id: uuid(), option: "the ability to bid for a lower hourly cost.", "isRight": false },
+                    { id: uuid(), option: "paying a daily rate regardless of time used.", "isRight": false },
+                    {id: uuid(), option: "paying only for time used.", "isRight": true },
+                    { id: uuid(), option: "pre-paying for instances and paying a lower hourly rate.", "isRight": false }
                   ]
                 },
                 {
                   "id": "130",
-                  "question": "An administrator needs to rapidly deploy a popular IT solution and start using it immediately. Where can the administrator find assistance?",
-                  "options": [
-                    { "id": "A", "option": "AWS Well-Architected Framework documentation", "isRight": false },
-                    { "id": "B", "option": "Amazon CloudFront", "isRight": false },
-                    { "id": "C", "option": "AWS CodeCommit", "isRight": false },
-                    { "id": "D", "option": "AWS Quick Start reference deployments", "isRight": true }
+                  question: "An administrator needs to rapidly deploy a popular IT solution and start using it immediately. Where can the administrator find assistance?",
+                 options: [
+                    { id: uuid(), option: "AWS Well-Architected Framework documentation", "isRight": false },
+                    { id: uuid(), option: "Amazon CloudFront", "isRight": false },
+                    {id: uuid(), option: "AWS CodeCommit", "isRight": false },
+                    { id: uuid(), option: "AWS Quick Start reference deployments", "isRight": true }
                   ]
                 }
               ]
