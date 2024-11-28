@@ -1,0 +1,4 @@
+node_modules
+db/users.js
+# Ignore quiz.js
+
