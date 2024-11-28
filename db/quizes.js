@@ -48,6 +48,7 @@ const quizzes = {
                 { id: uuid(), option: "Enable AWSCloudTrail.", isRight: false },
                 { id: uuid(), option: "Grant least privilege access to IAMusers.", isRight: true },
                 { id: uuid(), option: "Create one IAM user and share with many developers and users.", isRight: false },
+                { id: uuid(), option: "Enable AmazonCloudFront.", isRight: false },
                 { id: uuid(), option: "Activate multi-factor authentication (MFA) for privilegedusers.", isRight: true }
               ]
             },
@@ -131,106 +132,111 @@ const quizzes = {
             imageUrl :"https://img.freepik.com/premium-photo/one-hundred-ten-3d-illustration-golden-number-110-white-copy-space-right-hand-side-text_131956-46.jpg",
             quiz:[
                 {
-                  id: uuid(),
-                  question: "Which AWS service is suitable for analyzing streaming data in real time?",
-                  options: [
-                    { id: uuid(), option: "Amazon Kinesis", isRight: true },
-                    { id: uuid(), option: "Amazon Athena", isRight: false },
-                    { id: uuid(), option: "Amazon Redshift", isRight: false },
-                    { id: uuid(), option: "Amazon QuickSight", isRight: false }
+                  "id": "111",
+                  "question": "Which options does AWS make available for customers who want to learn about security in the cloud in an instructor-led setting? (Choose two.)",
+                  "options": [
+                    { "id": "A", "option": "AWS Trusted Advisor", "isRight": false },
+                    { "id": "B", "option": "AWS Online Tech Talks", "isRight": true },
+                    { "id": "C", "option": "AWS Blog", "isRight": false },
+                    { "id": "D", "option": "AWS Forums", "isRight": false },
+                    { "id": "E", "option": "AWS Classroom Training", "isRight": true }
                   ]
                 },
                 {
-                  id: uuid(),
-                  question: "Which AWS service helps ensure that the latest security patches are applied to Amazon EC2 instances?",
-                  options: [
-                    { id: uuid(), option: "AWS Shield", isRight: false },
-                    { id: uuid(), option: "AWS Inspector", isRight: true },
-                    { id: uuid(), option: "AWS Trusted Advisor", isRight: false },
-                    { id: uuid(), option: "AWS Systems Manager", isRight: false }
+                  "id": "112",
+                  "question": "Which of the following features can be configured through the Amazon Virtual Private Cloud (Amazon VPC) Dashboard? (Choose two.)",
+                  "options": [
+                    { "id": "A", "option": "Amazon CloudFront distributions", "isRight": false },
+                    { "id": "B", "option": "Amazon Route 53", "isRight": false },
+                    { "id": "C", "option": "Security Groups", "isRight": true },
+                    { "id": "D", "option": "Subnets", "isRight": true },
+                    { "id": "E", "option": "Elastic Load Balancing", "isRight": false }
                   ]
                 },
                 {
-                  id: uuid(),
-                  question: "Which of the following services can be used to host a static website?",
-                  options: [
-                    { id: uuid(), option: "Amazon S3", isRight: true },
-                    { id: uuid(), option: "Amazon RDS", isRight: false },
-                    { id: uuid(), option: "Amazon Redshift", isRight: false },
-                    { id: uuid(), option: "Amazon DynamoDB", isRight: false }
+                  "id": "113",
+                  "question": "If each department within a company has its own AWS account, what is one way to enable consolidated billing?",
+                  "options": [
+                    { "id": "A", "option": "Use AWS Budgets on each account to pay only to budget.", "isRight": false },
+                    { "id": "B", "option": "Contact AWS Support for a monthly bill.", "isRight": false },
+                    { "id": "C", "option": "Create an AWS Organization from the payer account and invite the other accounts to join.", "isRight": true },
+                    { "id": "D", "option": "Put all invoices into one Amazon Simple Storage Service (Amazon S3) bucket, load data into Amazon Redshift, and then run a billing report.", "isRight": false }
                   ]
                 },
                 {
-                  id: uuid(),
-                  question: "Which AWS service is designed to improve the performance of web and mobile applications by caching data closer to users?",
-                  options: [
-                    { id: uuid(), option: "AWS CloudFront", isRight: true },
-                    { id: uuid(), option: "AWS Lambda", isRight: false },
-                    { id: uuid(), option: "Amazon RDS", isRight: false },
-                    { id: uuid(), option: "AWS Step Functions", isRight: false }
+                  "id": "114",
+                  "question": "How do customers benefit from Amazon’s massive economies of scale?",
+                  "options": [
+                    { "id": "A", "option": "Periodic price reductions as the result of Amazon’s operational efficiencies", "isRight": true },
+                    { "id": "B", "option": "New Amazon EC2 instance types providing the latest hardware", "isRight": false },
+                    { "id": "C", "option": "The ability to scale up and down when needed", "isRight": false },
+                    { "id": "D", "option": "Increased reliability in the underlying hardware of Amazon EC2 instances", "isRight": false }
                   ]
                 },
                 {
-                  id: uuid(),
-                  question: "Which service is used to manage infrastructure as code in AWS?",
-                  options: [
-                    { id: uuid(), option: "AWS CloudFormation", isRight: true },
-                    { id: uuid(), option: "AWS Systems Manager", isRight: false },
-                    { id: uuid(), option: "Amazon EC2", isRight: false },
-                    { id: uuid(), option: "AWS CloudTrail", isRight: false }
+                  "id": "115",
+                  "question": "Which AWS services can be used to gather information about AWS account activity? (Choose two.)",
+                  "options": [
+                    { "id": "A", "option": "Amazon CloudFront", "isRight": false },
+                    { "id": "B", "option": "AWS Cloud9", "isRight": false },
+                    { "id": "C", "option": "AWS CloudTrail", "isRight": true },
+                    { "id": "D", "option": "AWS CloudHSM", "isRight": false },
+                    { "id": "E", "option": "Amazon CloudWatch", "isRight": true }
                   ]
                 },
                 {
-                  id: uuid(),
-                  question: "Which AWS service allows developers to deploy and manage containerized applications?",
-                  options: [
-                    { id: uuid(), option: "Amazon ECS", isRight: true },
-                    { id: uuid(), option: "AWS Fargate", isRight: true },
-                    { id: uuid(), option: "AWS Lambda", isRight: false },
-                    { id: uuid(), option: "Amazon RDS", isRight: false }
+                  "id": "116",
+                  "question": "Which of the following common IT tasks can AWS cover to free up company IT resources? (Choose two.)",
+                  "options": [
+                    { "id": "A", "option": "Patching database software", "isRight": true },
+                    { "id": "B", "option": "Testing application releases", "isRight": false },
+                    { "id": "C", "option": "Backing up databases", "isRight": true },
+                    { "id": "D", "option": "Creating database schema", "isRight": false },
+                    { "id": "E", "option": "Running penetration tests", "isRight": false }
                   ]
                 },
                 {
-                  id: uuid(),
-                  question: "Which AWS service can be used to automatically distribute incoming application traffic across multiple targets?",
-                  options: [
-                    { id: uuid(), option: "Amazon Route 53", isRight: false },
-                    { id: uuid(), option: "Elastic Load Balancing (ELB)", isRight: true },
-                    { id: uuid(), option: "AWS Auto Scaling", isRight: false },
-                    { id: uuid(), option: "AWS CloudFront", isRight: false }
+                  "id": "117",
+                  "question": "In which scenario should Amazon EC2 Spot Instances be used?",
+                  "options": [
+                    { "id": "A", "option": "A company wants to move its main website to AWS from an on-premises web server.", "isRight": false },
+                    { "id": "B", "option": "A company has a number of application services whose Service Level Agreement (SLA) requires 99.999% uptime.", "isRight": false },
+                    { "id": "C", "option": "A company’s heavily used legacy database is currently running on-premises.", "isRight": false },
+                    { "id": "D", "option": "A company has a number of infrequent, interruptible jobs that are currently using On-Demand Instances.", "isRight": true }
                   ]
                 },
                 {
-                  id: uuid(),
-                  question: "Which AWS service provides automatic scaling for your applications?",
-                  options: [
-                    { id: uuid(), option: "Amazon EC2", isRight: false },
-                    { id: uuid(), option: "AWS Auto Scaling", isRight: true },
-                    { id: uuid(), option: "AWS Elastic Beanstalk", isRight: false },
-                    { id: uuid(), option: "AWS Systems Manager", isRight: false }
+                  "id": "118",
+                  "question": "Which AWS feature should a customer leverage to achieve high availability of an application?",
+                  "options": [
+                    { "id": "A", "option": "AWS Direct Connect", "isRight": false },
+                    { "id": "B", "option": "Availability Zones", "isRight": true },
+                    { "id": "C", "option": "Data centers", "isRight": false },
+                    { "id": "D", "option": "Amazon Virtual Private Cloud (Amazon VPC)", "isRight": false }
                   ]
                 },
                 {
-                  id: uuid(),
-                  question: "Which service allows you to run code without provisioning or managing servers?",
-                  options: [
-                    { id: uuid(), option: "AWS Lambda", isRight: true },
-                    { id: uuid(), option: "AWS Fargate", isRight: false },
-                    { id: uuid(), option: "Amazon EC2", isRight: false },
-                    { id: uuid(), option: "Amazon ECS", isRight: false }
+                  "id": "119",
+                  "question": "Which is the minimum AWS Support plan that includes Infrastructure Event Management without additional costs?",
+                  "options": [
+                    { "id": "A", "option": "Enterprise", "isRight": true },
+                    { "id": "B", "option": "Business", "isRight": false },
+                    { "id": "C", "option": "Developer", "isRight": false },
+                    { "id": "D", "option": "Basic", "isRight": false }
                   ]
                 },
                 {
-                  id: uuid(),
-                  question: "Which service can be used to track user activity and API usage within your AWS account?",
-                  options: [
-                    { id: uuid(), option: "AWS CloudTrail", isRight: true },
-                    { id: uuid(), option: "Amazon CloudWatch", isRight: false },
-                    { id: uuid(), option: "AWS Config", isRight: false },
-                    { id: uuid(), option: "AWS Trusted Advisor", isRight: false }
+                  "id": "120",
+                  "question": "Which AWS service can serve a static website?",
+                  "options": [
+                    { "id": "A", "option": "Amazon S3", "isRight": true },
+                    { "id": "B", "option": "Amazon Route 53", "isRight": false },
+                    { "id": "C", "option": "Amazon QuickSight", "isRight": false },
+                    { "id": "D", "option": "AWS X-Ray", "isRight": false }
                   ]
                 }
               ]
+              
               
           
           }
