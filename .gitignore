@@ -1,4 +1,5 @@
 node_modules
-db/users.js
+
+.env
 # Ignore quiz.js
 

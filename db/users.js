@@ -1,21 +1,22 @@
-require("dotenv").config();
-const { v4: uuid } = require("uuid");
+const {v4 : uuid}= require("uuid");
 
 const userdata = {
-    "users": [
+
+    "users":[
         {
-            id: uuid(),
-            username: process.env.USERNAME_CHANDAN,
-            password: process.env.PASSWORD_CHANDAN,
-            emailID: process.env.EMAIL_CHANDAN,
+            id:uuid(),
+            username:"chandan",
+            password:"chandan123",
+            emailID:"chandan@gmail.com"
         },
+        
         {
-            id: uuid(),
-            username: process.env.USERNAME_GUEST,
-            password: process.env.PASSWORD_GUEST,
-            emailID: process.env.EMAIL_GUEST,
+            id:uuid(),
+            username:"guest",
+            password:"guest123",
+            emailID:"ankit@gmail.com"
         }
     ]
-};
+}
 
 module.exports = userdata;
