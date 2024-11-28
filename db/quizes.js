@@ -243,120 +243,111 @@ const quizzes = {
             category: "From 120 to 130",
             description: "Questions From 120 to 130",
             imageUrl :"https://upload.wikimedia.org/wikipedia/commons/8/8b/Route_120-FIN.png?20161203174340",
-            quiz: 
-            [
+            quiz: [
                 {
                   "id": "121",
                   "question": "How does AWS shorten the time to provision IT resources?",
                   "options": [
-                    "A. It supplies an online IT ticketing platform for resource requests.",
-                    "B. It supports automatic code validation services.",
-                    "C. It provides the ability to programmatically provision existing resources.",
-                    "D. It automates the resource request process from a company’s IT vendor list."
-                  ],
-                  "correctAnswer": "C"
+                    { "id": "A", "option": "It supplies an online IT ticketing platform for resource requests.", "isRight": false },
+                    { "id": "B", "option": "It supports automatic code validation services.", "isRight": false },
+                    { "id": "C", "option": "It provides the ability to programmatically provision existing resources.", "isRight": true },
+                    { "id": "D", "option": "It automates the resource request process from a company’s IT vendor list.", "isRight": false }
+                  ]
                 },
                 {
                   "id": "122",
                   "question": "What can AWS edge locations be used for? (Choose two.)",
                   "options": [
-                    "A. Hosting applications",
-                    "B. Delivering content closer to users",
-                    "C. Running NoSQL database caching services",
-                    "D. Reducing traffic on the server by caching responses",
-                    "E. Sending notification messages to end users"
-                  ],
-                  "correctAnswer": ["B", "D"]
+                    { "id": "A", "option": "Hosting applications", "isRight": false },
+                    { "id": "B", "option": "Delivering content closer to users", "isRight": true },
+                    { "id": "C", "option": "Running NoSQL database caching services", "isRight": false },
+                    { "id": "D", "option": "Reducing traffic on the server by caching responses", "isRight": true },
+                    { "id": "E", "option": "Sending notification messages to end users", "isRight": false }
+                  ]
                 },
                 {
                   "id": "123",
                   "question": "Which of the following can limit Amazon Simple Storage Service (Amazon S3) bucket access to specific users?",
                   "options": [
-                    "A. A public and private key-pair",
-                    "B. Amazon Inspector",
-                    "C. AWS Identity and Access Management (IAM) policies",
-                    "D. Security Groups"
-                  ],
-                  "correctAnswer": "C"
+                    { "id": "A", "option": "A public and private key-pair", "isRight": false },
+                    { "id": "B", "option": "Amazon Inspector", "isRight": false },
+                    { "id": "C", "option": "AWS Identity and Access Management (IAM) policies", "isRight": true },
+                    { "id": "D", "option": "Security Groups", "isRight": false }
+                  ]
                 },
                 {
                   "id": "124",
                   "question": "A solution that is able to support growth in users, traffic, or data size with no drop in performance aligns with which cloud architecture principle?",
                   "options": [
-                    "A. Think parallel",
-                    "B. Implement elasticity",
-                    "C. Decouple your components",
-                    "D. Design for failure"
-                  ],
-                  "correctAnswer": "B"
+                    { "id": "A", "option": "Think parallel", "isRight": false },
+                    { "id": "B", "option": "Implement elasticity", "isRight": true },
+                    { "id": "C", "option": "Decouple your components", "isRight": false },
+                    { "id": "D", "option": "Design for failure", "isRight": false }
+                  ]
                 },
                 {
-                    "id": "125",
-                    "question": "A company will be moving from an on-premises data center to the AWS Cloud. What would be one financial difference after the move?",
-                    "options": [
-                      "A. Moving from variable operational expense (opex) to upfront capital expense (capex).",
-                      "B. Moving from upfront capital expense (capex) to variable capital expense (capex).",
-                      "C. Moving from upfront capital expense (capex) to variable operational expense (opex).",
-                      "D. Elimination of upfront capital expense (capex) and elimination of variable operational expense (opex)."
-                    ],
-                    "correctAnswer": "C"
-                  },
-                  {
-                    "id": "126",
-                    "question": "How should a customer forecast the future costs for running a new web application?",
-                    "options": [
-                      "A. Amazon Aurora Backtrack",
-                      "B. Amazon CloudWatch Billing Alarms",
-                      "C. AWS Simple Monthly Calculator",
-                      "D. AWS Cost and Usage report"
-                    ],
-                    "correctAnswer": "C"
-                  },
-                  {
-                    "id": "127",
-                    "question": "Which is the MINIMUM AWS Support plan that provides technical support through phone calls?",
-                    "options": [
-                      "A. Enterprise",
-                      "B. Business",
-                      "C. Developer",
-                      "D. Basic"
-                    ],
-                    "correctAnswer": "B"
-                  },
-                  {
-                    "id": "128",
-                    "question": "Which of the following tasks is the responsibility of AWS?",
-                    "options": [
-                      "A. Encrypting client-side data",
-                      "B. Configuring AWS Identity and Access Management (IAM) roles",
-                      "C. Securing the Amazon EC2 hypervisor",
-                      "D. Setting user password policies"
-                    ],
-                    "correctAnswer": "C"
-                  },
-                  {
-                    "id": "129",
-                    "question": "One benefit of On-Demand Amazon Elastic Compute Cloud (Amazon EC2) pricing is:",
-                    "options": [
-                      "A. the ability to bid for a lower hourly cost.",
-                      "B. paying a daily rate regardless of time used.",
-                      "C. paying only for time used.",
-                      "D. pre-paying for instances and paying a lower hourly rate."
-                    ],
-                    "correctAnswer": "C"
-                  },
-                  {
-                    "id": "130",
-                    "question": "An administrator needs to rapidly deploy a popular IT solution and start using it immediately. Where can the administrator find assistance?",
-                    "options": [
-                      "A. AWS Well-Architected Framework documentation",
-                      "B. Amazon CloudFront",
-                      "C. AWS CodeCommit",
-                      "D. AWS Quick Start reference deployments"
-                    ],
-                    "correctAnswer": "D"
-                  }
-                ]            
+                  "id": "125",
+                  "question": "A company will be moving from an on-premises data center to the AWS Cloud. What would be one financial difference after the move?",
+                  "options": [
+                    { "id": "A", "option": "Moving from variable operational expense (opex) to upfront capital expense (capex).", "isRight": false },
+                    { "id": "B", "option": "Moving from upfront capital expense (capex) to variable capital expense (capex).", "isRight": false },
+                    { "id": "C", "option": "Moving from upfront capital expense (capex) to variable operational expense (opex).", "isRight": true },
+                    { "id": "D", "option": "Elimination of upfront capital expense (capex) and elimination of variable operational expense (opex).", "isRight": false }
+                  ]
+                },
+                {
+                  "id": "126",
+                  "question": "How should a customer forecast the future costs for running a new web application?",
+                  "options": [
+                    { "id": "A", "option": "Amazon Aurora Backtrack", "isRight": false },
+                    { "id": "B", "option": "Amazon CloudWatch Billing Alarms", "isRight": false },
+                    { "id": "C", "option": "AWS Simple Monthly Calculator", "isRight": true },
+                    { "id": "D", "option": "AWS Cost and Usage report", "isRight": false }
+                  ]
+                },
+                {
+                  "id": "127",
+                  "question": "Which is the MINIMUM AWS Support plan that provides technical support through phone calls?",
+                  "options": [
+                    { "id": "A", "option": "Enterprise", "isRight": false },
+                    { "id": "B", "option": "Business", "isRight": true },
+                    { "id": "C", "option": "Developer", "isRight": false },
+                    { "id": "D", "option": "Basic", "isRight": false }
+                  ]
+                },
+                {
+                  "id": "128",
+                  "question": "Which of the following tasks is the responsibility of AWS?",
+                  "options": [
+                    { "id": "A", "option": "Encrypting client-side data", "isRight": false },
+                    { "id": "B", "option": "Configuring AWS Identity and Access Management (IAM) roles", "isRight": false },
+                    { "id": "C", "option": "Securing the Amazon EC2 hypervisor", "isRight": true },
+                    { "id": "D", "option": "Setting user password policies", "isRight": false }
+                  ]
+                },
+                {
+                  "id": "129",
+                  "question": "One benefit of On-Demand Amazon Elastic Compute Cloud (Amazon EC2) pricing is:",
+                  "options": [
+                    { "id": "A", "option": "the ability to bid for a lower hourly cost.", "isRight": false },
+                    { "id": "B", "option": "paying a daily rate regardless of time used.", "isRight": false },
+                    { "id": "C", "option": "paying only for time used.", "isRight": true },
+                    { "id": "D", "option": "pre-paying for instances and paying a lower hourly rate.", "isRight": false }
+                  ]
+                },
+                {
+                  "id": "130",
+                  "question": "An administrator needs to rapidly deploy a popular IT solution and start using it immediately. Where can the administrator find assistance?",
+                  "options": [
+                    { "id": "A", "option": "AWS Well-Architected Framework documentation", "isRight": false },
+                    { "id": "B", "option": "Amazon CloudFront", "isRight": false },
+                    { "id": "C", "option": "AWS CodeCommit", "isRight": false },
+                    { "id": "D", "option": "AWS Quick Start reference deployments", "isRight": true }
+                  ]
+                }
+              ]
+              
+                     
           }
         
 
