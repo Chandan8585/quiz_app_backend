@@ -236,9 +236,127 @@ const quizzes = {
                   ]
                 }
               ]
-              
-              
-          
+          },
+
+          {
+            id:uuid(),
+            category: "From 120 to 130",
+            description: "Questions From 120 to 130",
+            imageUrl :"https://upload.wikimedia.org/wikipedia/commons/8/8b/Route_120-FIN.png?20161203174340",
+            quiz: 
+            [
+                {
+                  "id": "121",
+                  "question": "How does AWS shorten the time to provision IT resources?",
+                  "options": [
+                    "A. It supplies an online IT ticketing platform for resource requests.",
+                    "B. It supports automatic code validation services.",
+                    "C. It provides the ability to programmatically provision existing resources.",
+                    "D. It automates the resource request process from a company’s IT vendor list."
+                  ],
+                  "correctAnswer": "C"
+                },
+                {
+                  "id": "122",
+                  "question": "What can AWS edge locations be used for? (Choose two.)",
+                  "options": [
+                    "A. Hosting applications",
+                    "B. Delivering content closer to users",
+                    "C. Running NoSQL database caching services",
+                    "D. Reducing traffic on the server by caching responses",
+                    "E. Sending notification messages to end users"
+                  ],
+                  "correctAnswer": ["B", "D"]
+                },
+                {
+                  "id": "123",
+                  "question": "Which of the following can limit Amazon Simple Storage Service (Amazon S3) bucket access to specific users?",
+                  "options": [
+                    "A. A public and private key-pair",
+                    "B. Amazon Inspector",
+                    "C. AWS Identity and Access Management (IAM) policies",
+                    "D. Security Groups"
+                  ],
+                  "correctAnswer": "C"
+                },
+                {
+                  "id": "124",
+                  "question": "A solution that is able to support growth in users, traffic, or data size with no drop in performance aligns with which cloud architecture principle?",
+                  "options": [
+                    "A. Think parallel",
+                    "B. Implement elasticity",
+                    "C. Decouple your components",
+                    "D. Design for failure"
+                  ],
+                  "correctAnswer": "B"
+                },
+                {
+                    "id": "125",
+                    "question": "A company will be moving from an on-premises data center to the AWS Cloud. What would be one financial difference after the move?",
+                    "options": [
+                      "A. Moving from variable operational expense (opex) to upfront capital expense (capex).",
+                      "B. Moving from upfront capital expense (capex) to variable capital expense (capex).",
+                      "C. Moving from upfront capital expense (capex) to variable operational expense (opex).",
+                      "D. Elimination of upfront capital expense (capex) and elimination of variable operational expense (opex)."
+                    ],
+                    "correctAnswer": "C"
+                  },
+                  {
+                    "id": "126",
+                    "question": "How should a customer forecast the future costs for running a new web application?",
+                    "options": [
+                      "A. Amazon Aurora Backtrack",
+                      "B. Amazon CloudWatch Billing Alarms",
+                      "C. AWS Simple Monthly Calculator",
+                      "D. AWS Cost and Usage report"
+                    ],
+                    "correctAnswer": "C"
+                  },
+                  {
+                    "id": "127",
+                    "question": "Which is the MINIMUM AWS Support plan that provides technical support through phone calls?",
+                    "options": [
+                      "A. Enterprise",
+                      "B. Business",
+                      "C. Developer",
+                      "D. Basic"
+                    ],
+                    "correctAnswer": "B"
+                  },
+                  {
+                    "id": "128",
+                    "question": "Which of the following tasks is the responsibility of AWS?",
+                    "options": [
+                      "A. Encrypting client-side data",
+                      "B. Configuring AWS Identity and Access Management (IAM) roles",
+                      "C. Securing the Amazon EC2 hypervisor",
+                      "D. Setting user password policies"
+                    ],
+                    "correctAnswer": "C"
+                  },
+                  {
+                    "id": "129",
+                    "question": "One benefit of On-Demand Amazon Elastic Compute Cloud (Amazon EC2) pricing is:",
+                    "options": [
+                      "A. the ability to bid for a lower hourly cost.",
+                      "B. paying a daily rate regardless of time used.",
+                      "C. paying only for time used.",
+                      "D. pre-paying for instances and paying a lower hourly rate."
+                    ],
+                    "correctAnswer": "C"
+                  },
+                  {
+                    "id": "130",
+                    "question": "An administrator needs to rapidly deploy a popular IT solution and start using it immediately. Where can the administrator find assistance?",
+                    "options": [
+                      "A. AWS Well-Architected Framework documentation",
+                      "B. Amazon CloudFront",
+                      "C. AWS CodeCommit",
+                      "D. AWS Quick Start reference deployments"
+                    ],
+                    "correctAnswer": "D"
+                  }
+                ]            
           }
         
 
@@ -246,3 +364,19 @@ const quizzes = {
 }
 
 module.exports = quizzes
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
